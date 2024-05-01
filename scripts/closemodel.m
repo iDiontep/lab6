@@ -18,5 +18,5 @@ function clearTrash()
            rmdir('./slprj', 's');
        end
     end
-
+delete("model.slxc");
 end
